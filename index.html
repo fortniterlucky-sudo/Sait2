@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Кузнец в огне</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <a class="logo" href="#top">КУЗНЕЦ В ОГНЕ</a>
+
+    <nav>
+      <a href="#about">О проекте</a>
+      <a href="#collection">Коллекция</a>
+      <a href="#details">Детали</a>
+      <a href="#order">Сделать заказ ↗</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <div class="site-line" aria-hidden="true">
+      <svg viewBox="0 0 1100 4000" preserveAspectRatio="none">
+        <path d="M950-100C350 250 1250 650 700 1000S-250 1400 350 1850 1250 2100 850 2600 50 3100 450 3500 1100 3700 800 4100"/>
+        <path d="M970-100C370 250 1270 650 720 1000S-230 1400 370 1850 1270 2100 870 2600 70 3100 470 3500 1120 3700 820 4100"/>
+      </svg>
+    </div>
+
+    <section class="hero">
+      <div>
+        <h1>ДЕТАЛИ,<br>КОТОРЫЕ<br><em>НОСЯТ.</em></h1>
+
+        <p>
+          Механизм меняет назначение.<br>
+          Металл сохраняет характер.
+        </p>
+
+        <a class="link" href="#collection">
+          Смотреть коллекцию ↗
+        </a>
+      </div>
+
+      <img src="assets/ring.png" alt="Кольцо Горн">
+    </section>
+
+    <section class="about" id="about">
+      <h2>
+        У КАЖДОЙ<br>
+        ДЕТАЛИ —<br>
+        <em>НОВАЯ РОЛЬ.</em>
+      </h2>
+
+      <div>
+        <p>
+          Шестерёнка перестаёт вращать механизм.
+          Теперь она собирает вокруг себя всё внимание.
+        </p>
+
+        <p>
+          Меня зацепила форма старых механизмов:
+          зубцы шестерёнок, соединения цепей,
+          небольшие заклёпки. По отдельности они уже
+          похожи на украшения.
+        </p>
+
+        <p>
+          Так появился «Кузнец в огне» — проект,
+          в котором механическая геометрия встречается
+          с тёмным металлом, медью и глубоким красным цветом.
+        </p>
+      </div>
+    </section>
+
+    <div class="ribbon" aria-hidden="true">
+      МЕТАЛЛ <span>×</span> ОГОНЬ <span>×</span> ХАРАКТЕР
+    </div>
+
+    <section id="collection">
+      <h2>СОБРАНО<br><em>В ОГНЕ.</em></h2>
+
+      <div class="products">
+
+        <details class="product">
+          <summary>
+            <img src="assets/ring.png" alt="Кольцо Горн">
+            <h3>ГОРН <span>+</span></h3>
+          </summary>
+
+          <p>
+            Кольцо с зубчатым ободом, тёмно-красной
+            вставкой и медными заклёпками.
+          </p>
+
+          <a class="link" href="#order">Сделать заказ ↗</a>
+        </details>
+
+        <details class="product">
+          <summary>
+            <img src="assets/earrings.png" alt="Серьги Искры">
+            <h3>ИСКРЫ <span>+</span></h3>
+          </summary>
+
+          <p>
+            Парные механические детали.
+            Подвижные соединения добавляют строгой
+            геометрии лёгкость.
+          </p>
+
+          <a class="link" href="#order">Сделать заказ ↗</a>
+        </details>
+
+        <details class="product">
+          <summary>
+            <img src="assets/pendant.png" alt="Подвеска Ядро">
+            <h3>ЯДРО <span>+</span></h3>
+          </summary>
+
+          <p>
+            Подвеска с красной вставкой, ритмом зубцов
+            и тёплыми медными деталями.
+          </p>
+
+          <a class="link" href="#order">Сделать заказ ↗</a>
+        </details>
+
+      </div>
+    </section>
+
+    <section class="details-section" id="details">
+      <img
+        src="assets/ring.png"
+        alt="Крупный план кольца Горн"
+      >
+
+      <div>
+        <h2>НИЧЕГО<br><em>СЛУЧАЙНОГО.</em></h2>
+
+        <div class="detail-list">
+          <details open>
+            <summary>
+              Геометрия механизма <span>+</span>
+            </summary>
+
+            <p>
+              Ритм зубцов задаёт силуэт. Отверстия,
+              крепления и стыки становятся частью
+              рисунка украшения.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              След огня <span>+</span>
+            </summary>
+
+            <p>
+              Огонь здесь — в цвете: глубокая красная
+              вставка, тёплая медь и потемневшая
+              поверхность металла.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              Контраст поверхностей <span>+</span>
+            </summary>
+
+            <p>
+              Гранёная вставка отражает свет,
+              а неровный металл его приглушает.
+              На этом контрасте держится характер коллекции.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="order" id="order">
+      <h2>СДЕЛАТЬ<br><em>ЗАКАЗ.</em></h2>
+
+      <form method="dialog">
+        <fieldset class="choices">
+          <legend>Выберите украшение</legend>
+
+          <label>
+            <input
+              type="radio"
+              name="product"
+              value="ring"
+              checked
+            >
+            <span>Кольцо «Горн»</span>
+          </label>
+
+          <label>
+            <input
+              type="radio"
+              name="product"
+              value="earrings"
+            >
+            <span>Серьги «Искры»</span>
+          </label>
+
+          <label>
+            <input
+              type="radio"
+              name="product"
+              value="pendant"
+            >
+            <span>Подвеска «Ядро»</span>
+          </label>
+        </fieldset>
+
+        <div class="ring-size">
+          <fieldset class="choices">
+            <legend>Размер кольца</legend>
+
+            <label>
+              <input type="radio" name="size" value="16">
+              <span>16</span>
+            </label>
+
+            <label>
+              <input type="radio" name="size" value="16.5">
+              <span>16.5</span>
+            </label>
+
+            <label>
+              <input type="radio" name="size" value="17">
+              <span>17</span>
+            </label>
+
+            <label>
+              <input type="radio" name="size" value="17.5">
+              <span>17.5</span>
+            </label>
+
+            <label>
+              <input type="radio" name="size" value="18">
+              <span>18</span>
+            </label>
+
+            <label>
+              <input type="radio" name="size" value="18.5">
+              <span>18.5</span>
+            </label>
+
+            <label>
+              <input type="radio" name="size" value="19">
+              <span>19</span>
+            </label>
+
+            <label>
+              <input type="radio" name="size" value="19.5">
+              <span>19.5</span>
+            </label>
+
+            <label>
+              <input type="radio" name="size" value="20">
+              <span>20</span>
+            </label>
+          </fieldset>
+
+          <details class="size-guide">
+            <summary>Размерная сетка</summary>
+
+            <p>
+              Размер RU соответствует внутреннему диаметру
+              кольца в миллиметрах. Измерьте кольцо,
+              которое вам удобно носить.
+            </p>
+
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Размер RU</th>
+                  <th scope="col">Диаметр, мм</th>
+                  <th scope="col">Окружность, мм</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr><td>16</td><td>16</td><td>50.3</td></tr>
+                <tr><td>16.5</td><td>16.5</td><td>51.8</td></tr>
+                <tr><td>17</td><td>17</td><td>53.4</td></tr>
+                <tr><td>17.5</td><td>17.5</td><td>55.0</td></tr>
+                <tr><td>18</td><td>18</td><td>56.5</td></tr>
+                <tr><td>18.5</td><td>18.5</td><td>58.1</td></tr>
+                <tr><td>19</td><td>19</td><td>59.7</td></tr>
+                <tr><td>19.5</td><td>19.5</td><td>61.3</td></tr>
+                <tr><td>20</td><td>20</td><td>62.8</td></tr>
+              </tbody>
+            </table>
+          </details>
+        </div>
+
+        <label class="field">
+          Ваше имя
+          <input type="text" name="name" autocomplete="name">
+        </label>
+
+        <label class="field">
+          Email
+          <input type="email" name="email" autocomplete="email">
+        </label>
+
+        <label class="field">
+          Комментарий
+          <textarea name="comment" rows="3"></textarea>
+        </label>
+
+        <button type="button">Заказать ↗</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <a class="logo" href="#top">КУЗНЕЦ В ОГНЕ</a>
+    <a href="#top">Наверх ↑</a>
+  </footer>
+
+</body>
+</html>
